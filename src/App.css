@@ -1,0 +1,149 @@
+/* .App {
+  text-align: center;
+} */
+
+@font-face {
+	font-family: 'Sensal regular'; 
+	src: local('Sensal regular'),
+		url(../font/sensal_regular.ttf); 
+}
+@font-face {
+	font-family: 'Sensal outline'; 
+	src: local('Sensal outline'),
+		url(../font/sensal.ttf); 
+}
+
+.Description{
+  display: grid;
+  height: 300px;
+  background-color: #1C110F;
+
+}
+
+.BackgroundText{
+position: absolute;
+padding:1%;
+background: linear-gradient(150.31deg, #EFDED5 -15.8%, rgba(255, 255, 255, 0) 30.88%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+
+font-family: 'Sensal outline';
+font-style: normal;
+font-weight: 400;
+font-size: 30px;
+line-height: 38px;
+}
+
+.Quote{
+font-style: italic;
+color:#797574
+}
+
+.Info{
+  text-align: center;
+  align-self: stretch;
+display: grid;
+justify-items: end;
+align-items: center;
+}
+
+.WorkTitle{
+  text-align: center;
+  margin: 20px;
+}
+
+.Themes{
+  display: grid;
+  align-items: center;
+ text-align: center;
+}
+
+.TextStyle{
+  color: #797574;
+  font-style: italic;
+}
+.SubjTitle{
+  text-align: center;
+  font-family: 'Sensal regular';
+  font-style: normal;
+}
+.ButtonsSubject{
+  justify-content: center;
+  align-items: center;
+  grid-template-columns: repeat(5, 1fr);
+  display: grid;
+  row-gap: 5px;
+column-gap: 10px;
+}
+.Courses{
+  text-align: center;
+  margin:10px;
+}
+
+.d-grid{
+  margin:20px;
+}
+
+.Semester{
+  text-align: center;
+}
+.headersForText{
+  text-align: center;
+}
+/* .InfoPortfolio{
+  align-self: center;
+} */
+.Title{
+  display: grid;
+  align-items: stretch;
+  grid-template-columns: 6fr 1fr;
+color: #EFDED5;
+font-family: 'Sensal regular';
+font-style: normal;
+font-size: 45px;
+}
+.Name{
+  font-size: 30px;
+}
+
+
+p {
+  margin:0%;
+}
+ul{
+  list-style-type: none; 
+}
+
+.Data{
+  font-size: 20px;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.CardsOfSubjects{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+.About{
+  height:150px;
+}
+
+.Photo{
+ 
+box-sizing: border-box;
+
+position: absolute;
+width: 350px;
+height: 350px;
+left: 176px;
+top: 100px;
+
+background: url("https://i.ibb.co/9nF1xgv/me.jpg") center ;
+background-size: 100%;
+border: 10px solid #FFFFFF;
+border-radius: 480px;
+}
+
+.CardImage{
+  filter: grayscale(100%); 
+}
